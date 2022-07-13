@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".livedata.MainActivity">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <Button
+        android:id="@+id/btnLiveData1"
+        android:onClick="clickLiveData1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LiveData1"
+         />
+    <Button
+        android:id="@+id/btnLiveData2"
+        android:onClick="clickLiveData2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LiveData2"
+        />
+    <Button
+        android:id="@+id/btnSetMediator"
+        android:onClick="clickSetMeditorLiveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Meditor LiveData"
+        />
+    <Button
+        android:id="@+id/btnGetMediator"
+        android:onClick="clickGetMeditorLiveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Meditor LiveData"
+        />
+    <TextView
+        android:id="@+id/tvExpInc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/tvExpInc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
