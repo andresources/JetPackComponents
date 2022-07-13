@@ -18,7 +18,7 @@ import com.jetpackcomponets.livedata.mediator.Income;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
+    //To demonstrate LiveData,MutableLive Data , Mediator LiveDate, Combine Results
     TextView tv,tvExpInc1,tvExpInc2;
     MainViewModel vm;
     CombinedViewModel cvm;
